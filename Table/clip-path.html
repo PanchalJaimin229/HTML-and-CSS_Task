@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>clip-path</title>
+	<style>
+.g
+{
+height: 200px;
+width: 200px;
+background-color: red;
+clip-path: polygon(50% 0,100% 100%,0 100%);
+}
+
+
+#g
+{
+    box-sizing: border-box;
+	height: 200px;
+	width: 250px;
+	background-color: blueviolet;
+	margin-top: 100px;
+	clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.f
+{
+	height: 300px;
+	width: 300px;
+	background-color: brown;
+	clip-path:  polygon(50% 0%,100% 38%,82% 100%,18%100%,0% 38% );
+}
+
+.a
+	{
+		
+		background-color: blueviolet;
+		clip-path: polygon(30% 0%,70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%,0% 70%, 0% 30%);
+	}
+
+	</style>
+</head>
+<body>
+
+	<div class="g"></div>
+	<div id ="g"></div>
+	
+	<div class="f"></div>
+	<div class="a"></div>
+
+</body>
+</html>
