@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100%;
+            /* background: linear-gradient(lightcoral,lightblue); */
+            background: conic-gradient(lightcoral,lightgreen);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .round{
+            height: 510px;
+            width: 440px;
+        
+            background: black;
+            margin: 150px auto;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            position: relative;
+            overflow: hidden;
+            /* transition: 10s; */
+
+
+         
+        }
+        .round::before{
+            content: '';
+            height: 700px;
+            width: 410px;
+            background: linear-gradient(yellow,red);
+            position: absolute;
+            animation: round1 2s linear infinite;
+            /* transform: rotate(70deg); */
+        }
+        .round::after{
+            content: '';
+            height:495px;
+            width:420px ;
+            background:black;
+            position: absolute;
+        }
+        @keyframes round1 {
+            0%{
+                transform: rotate(0deg);
+            }
+            50%{
+                transform: rotate(360deg);
+            }
+            100%{
+                transform: rotate(0deg);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="round"></div>
+</body>
+</html>
+
+
