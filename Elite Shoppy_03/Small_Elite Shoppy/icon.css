@@ -1,0 +1,93 @@
+.icon {
+    width: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon span {
+    font-size: 22px;
+}
+
+/* facebook-icon , twiter-icon , instagram-icon , linkdin-icon and whatsapp-icon. */
+.fname,
+.tname,
+.instaname,
+.linkaname,
+.whatsname {
+    margin-left: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+.facebook,
+.twitter,
+.instagram,
+.linkdin,
+.whatsapp {
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+}
+
+.front,
+.front1,
+.front2,
+.front3,
+.front4 {
+    height: 30px;
+    width: 30px;
+    background: #3b5998;
+    color: #fff;
+    position: absolute;
+    backface-visibility: hidden;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    transform: translateZ(15px);
+}
+
+.front1 {
+    background: #1DA1F2;
+}
+
+.front2 {
+    background: coral;
+}
+
+.front3 {
+    background: red;
+}
+
+.front4 {
+    background: #25D366;
+}
+
+.back,
+.back1,
+.back2,
+.back3,
+.back4 {
+    height: 30px;
+    width: 30px;
+    background: white;
+    color: black;
+    position: absolute;
+    backface-visibility: hidden;
+    font-size: 14px;
+    top: 0;
+    left: 0;
+    transform: rotateX(90deg) translateZ(15px);
+}
+
+.facebook:hover,
+.twitter:hover,
+.instagram:hover,
+.linkdin:hover,
+.whatsapp:hover {
+    transform: rotateX(-90deg) translateZ(15px); */
+}

@@ -1,0 +1,589 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.fa{
+    color: aquamarine;
+    margin-right: 10px;
+}
+a{
+    /* display: block; */
+    padding: 25px 25px;
+    /* position: relative; */
+    font-size: 17px;
+    text-decoration: none;
+    /* color: white; */
+
+}
+#logo{
+    color: #000;
+}
+.header{
+    list-style-type: none;
+height: 30px;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background: #000;
+display: flex;
+justify-content: center;
+align-items: center;
+/* padding: 50px; */
+}
+.a1{
+    display: block;
+    text-align: center;
+    width: 290px;
+    font-size: 14px;
+    border-right: 1px solid gray;
+}
+.navbar{
+     /* width: 500px; */
+     height: 130px;
+     /* border: 2px solid red; */
+     display: flex;
+     align-items: center;
+}
+.in{
+    width: 378px;
+    height: 50px;
+    border-color: gray solid;
+    margin-left: 100px;
+    padding-left: 10px;
+}
+
+::placeholder{
+    font-size: 17px;
+    
+}
+
+.search{
+    margin: 2px;
+    width: 50px;
+    height: 50px;
+    background: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    
+}
+
+.srh{
+    background: transparent;
+    /* text-align: center; */
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.srch{
+    color: white;
+}
+.nav-4{
+    text-align: center;
+    transform: translate(500px,-110px);
+    position: absolute;
+    left: 75px;
+    /* color: #000; */
+    height:30px;
+}
+.nav-4 h1{
+    color: #000;
+}
+
+.nav-4 span{
+    background:black;
+    padding: 0 15px;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    letter-spacing:1px;
+}
+.h1 :first-child{
+    color: white;
+    /* margin-bottom: -20px; */
+    transform: translate(10px,0px);
+}
+h1 a {
+font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 1.8em;
+    position: relative;
+    font-family:apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+i.fa.fa-shopping-bag.top_logo_agile_bag{
+    position: absolute;
+    font-size: 18px;
+    top: 70px;
+    right: 14px;
+    color: #2fdab8;
+    left: 335px;
+    top: 95px;
+}
+/* .................2 nd line facebook instrgam sarat.................. */
+.icon {
+    width: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transform: translate(1300px,-px); */
+    position: absolute;
+    right: 100px;
+    top: 85px;
+    bottom: 580px;
+    /* word-spacing: 100px; */
+    
+
+}
+
+.icon span {
+    font-size: 25px;
+    position: absolute;
+    right: 5%; 
+    position: absolute;
+     left: -250px;
+    top: 5px; 
+   right: 90px;
+} 
+
+
+
+/* facebook-icon , twiter-icon , instagram-icon , linkdin-icon and whatsapp-icon. */
+.fname,
+.tname,
+.instaname,
+.linkaname,
+.whatsname {
+    margin-left:0px;
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* transform: translate(1130px,0%) */
+    
+    /* padding-top: 20px */
+
+
+}
+
+.facebook,
+.twitter,
+.instagram,
+.linkdin,
+.whatsapp {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    line-height: 30px;
+    position: relative;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+}
+
+.front,
+.front1,
+.front2,
+.front3,
+.front4 {
+    height: 30px;
+    width: 30px;
+    background: #3b5998;
+    color: #fff;
+    position: absolute;
+    backface-visibility: hidden;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    transform: translateZ(15px);
+    text-align: center;
+    /* justify-content: center */
+    /* padding-top: 7px; */
+    padding-left: 7px;
+}
+
+.front1 {
+    background: #1DA1F2;
+    /* transform: translate(); */
+}
+
+.front2 {
+    background: coral;
+}
+
+.front3 {
+    background: red;
+}
+
+.front4 {
+    background: #25D366;
+}
+
+.back,
+.back1,
+.back2,
+.back3,
+.back4 {
+    height: 30px;
+    width: 30px;
+    background: white;
+    color: black;
+    position: absolute;
+    backface-visibility: hidden;
+    font-size: 14px;
+    top: 0;
+    left: 0;
+    
+}
+
+
+/* .................2 nd line facebook instrgam end .................. */
+
+
+/* <!-- ................. 3rd line srat ..............navbar  --> */
+
+.third-nav{
+       /* transform: translate(0,100px);   */
+       height: 70px;
+       background: #000;
+       /* overflow: hidden; */
+       border: 2px black solid;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+.sc{
+    height: 70px;
+    position: relative;
+}
+.srt{
+    transform: translate(0px, 25px);
+}
+.itms{
+    list-style-type: none;
+    /* height: 100px; */
+    width: 100%;
+    text-align: center;
+    /* background: green; */
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+.sc:hover .itms{
+    display: block;
+}
+.itm1{
+    border-bottom: 2px solid gray;
+    display: block;
+    background: transparent;
+    box-shadow: 0 0 1px black;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    transition: 0.2s;
+}
+.itm1:hover{
+    color: white;
+    background: aquamarine;
+}
+.nav3{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    /* width: 100%; */
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+li .a2::after{
+    /* display: block; */
+    height: 4px;
+    content: "";
+    width: 0%;
+    position: absolute;
+    /* display: flex; */
+    left: 0%;
+    bottom: 0%;
+    background: aquamarine;
+    opacity: 0;
+    transition: .60s;
+}
+
+li .a2:hover::after{
+    width: 100%;
+    opacity: 1;
+}
+
+.a2{
+    position: relative;
+}
+
+/* <!-- ................. 3rd line end ..............navbar  --> */
+
+/*.............. MEN'S- Slide sarat............................. */
+
+.men-women{
+    box-shadow: 0 0 50px black;
+    width: 670px;
+    height: 280px;
+    display: flex;
+    padding: 30px 0 0 30px;
+    display: none;
+    position: absolute;
+    /* left: 20px; */
+    /* top: 100px; */
+}
+.list-item2:hover .men-women{
+    display: flex;
+}
+.image01{
+    height:220px;
+    width: 260px;
+     /* border: 2px solid black; */
+     position: relative;
+     /* overflow: hidden; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     overflow: hidden;
+}
+.image01 img{
+    height: 290px;
+    width: 500px;
+    object-fit: contain;
+}
+.image01::after{
+    content: '';
+    position: absolute;
+    height:100%;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+    top: 100%;
+    right: 100%;
+    transition: 1s;
+}
+.image01:hover::after{
+    top: 0;
+    right: 0;
+}
+.image01::before{
+    content: '';
+    position: absolute;
+    height:100%;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+     bottom: 100%;
+     left: 100%;
+    transition: 1s;
+
+}
+.image01:hover::before{
+    bottom: 0;
+    left: 0;
+}
+.col1{
+    width: 160px;
+    margin-left: 80px;
+}
+.col2{
+    width: 160px;
+}
+.slide{
+    text-decoration: none;
+    color:black;
+    line-height: 10px;
+}
+.item2{
+    height: 33px;
+    display: flex;
+    /* text-decoration: none; */
+    color:black;
+}
+.slide:hover{
+    color: red;
+}
+
+
+/*.............. MEN'S- Slide end............................. */
+
+
+
+
+
+
+/* .....................Women's Slide Start ............................*/
+
+.men-women-slid{
+    box-shadow: 0 0 10px black;
+    width: 650px;
+    height: 280px;
+    display: flex;
+    padding: 30px 0 0 30px;
+    display: none;
+    position: absolute;
+    /* top: 10px; */
+}
+.list-item2:hover .men-women-slid{
+    display: flex;
+}
+.image01{
+    height: 235px;
+    width: 300px;
+    /* border: 2px solid black; */
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 10px;
+}
+.image img{
+    height: 220px;
+    /* width: 220px; */
+    object-fit: contain;
+   
+}
+.image::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* height: 250px; */
+    background: rgba(0, 0, 0, 0.2);
+    top: 100%;
+    right: 100%;
+    transition: 1s;
+}
+.image:hover::after{
+    top: 0;
+    right: 0;
+}
+.image::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* height: 250px; */
+    background: rgba(0, 0, 0, 0.2);
+    bottom: 100%;
+    left: 100%;
+    transition: 1s;
+}
+.image:hover::before{
+    bottom: 0;
+    left: 0;
+}
+.col1{
+    width: 160px;
+    margin-left: 30px;
+}
+.col2{
+    width: 160px;
+}
+.itm1{
+    height: 33px;
+    display: flex;
+    
+    /* border: 2px solid black; */
+}
+.itm1-itms{
+    height: 200px;
+    width: 700px;
+    z-index: 1;
+    background: white;
+    /* top: 5px; */
+    display: flex;
+    justify-content: center;
+    display: none;
+
+}
+.img{
+    height: 160px;
+    width: 200px;
+    box-shadow: 0 0 10px black;
+    /* padding: 5px 8% 5px 8%; */
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    position: relative;
+
+}
+.img img{
+    height: 100px;
+    position: absolute;
+    top: 5px;
+    box-shadow: 0 0 10px black;
+    object-fit: contain;
+}
+.img h3{
+    position: absolute;
+    font-size: 16px;
+    /* background: white; */
+    width: 100%;
+    text-align: center;
+    top: 75%;
+}
+.sld{
+    
+    display: inline-block;
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.sld:hover{
+    color: aquamarine;
+}
+.sld:hover h3{
+    color: black;
+}
+.sld:hover .itm1-itms{
+    display: flex;
+}
+
+
+/* .....................Women's Slide end............................*/
+
+.ct{
+    /* background: aquamarine; */
+    width: 200px;
+    background: aquamarine;
+    height: 72px;
+    border: none;
+    transform: translate(120px,0px);
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.crt{
+    background: transparent;
+    background: rgba(0, 0, 0, 0.3);
+    font-size: 25px;
+    /* text-align: center; */
+    height:50px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    /* transform: translate(0,-5px); */
+}
+
+.cart{
+    width: 50px;
+    height: 40px;
+    /* background: rgba(255, 255, 255,1); */
+    color: black;
+    transform: translate(2px, -12px);
+    /* text-align: center; */
+}
+
+
