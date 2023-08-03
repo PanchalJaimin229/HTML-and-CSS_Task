@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{background: black;
+
+        }
+        .background{
+            width: 430px;
+            height: 520px;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            left: 50%;
+            top: 50%;
+        }
+        .background .shape{
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            border-radius: 50%;
+        }
+        .shape:first-child{
+            background: linear-gradient(
+                #1845ad,
+                #23a2f6
+            );
+            left: -80px;
+            top: -80px;
+        }
+        .shape:last-child{
+            background:linear-gradient(
+                #ff512f,
+                #f09819
+            );
+            right: -30px;
+            bottom: -80px;
+        }
+        form{
+
+            height: 520px;
+            width: 400px;
+            background: rgba(255,255,255,0.47);
+            position: absolute;
+            transform: translate(-50%,-50%);
+            margin: auto;
+            top: 50%;
+            left: 50%;
+            border-radius: 10px;
+            border: 2px solid black;
+            padding: 10px 10px;
+            
+        }
+        form *{
+            color: white;
+            letter-spacing: 0.5px;
+            outline: none;
+            border: none;
+        }
+        form h2{
+            text-align: center;
+            font-size: 32px;
+            color: black;
+            
+        }
+        .form-group{
+            display: block;
+            height: 100px;
+            width: 55%;
+            padding:40px 60px ;
+            margin-top: 40px;
+            font-size: 20px;
+            color: black;
+            outline: none;
+        }
+        input{
+            display: block;
+            height: 50px;
+            width: 120%;
+            /* background-color: rgba(255,255,255,0.07); */
+            background-color: whitesmoke;
+            border-radius: 4px;
+            padding: 0 10px;
+            margin-top: 10px;
+            font-size: 15px;
+            font-weight: 300;
+        }
+        ::placeholder{
+            color: black;
+        }
+        button{
+            color: #080710;
+            background-color:yellow;
+            width: 125%;
+            padding: 10px 10px;
+            margin-top: 50px;
+            border-radius: 6px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .social{
+            margin-top: 30px;
+            display: flex;
+
+        }
+        .social div{
+            height: 20px;
+            color: black;
+            text-align: center;
+            background-color:rgba(255,255,255,0.9);
+            border-radius: 4px;
+            padding: 5px 10px 10px 5px;
+            transform: translate(10%,10%)
+            width: 150px;
+            margin-bottom: -50px;
+
+        }
+        .social div:hover{
+            background-color: rgba(255,255,255,0.47);
+        }
+      
+        
+        .social .fb{
+            height: 20px;
+            margin-left: 20px;
+            transform: translate(40%,10%);
+            background-color: rgba(455,455,455,.9);
+        }
+        .social i{
+            margin-right: 4px;
+        }
+        .go{
+            height: 20px;
+            transform: translate(10%,10%);
+            background-color: rgba(455,455,455,.9);
+        }
+       
+        
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
+</div>
+  
+  <form>
+    <h2>Login Here</h2>
+    <div class="form-group">
+        UserName<input type="text" placeholder="Email or Phone"><br>
+        Password<input type="password" placeholder="Password">
+        <button>Login</button> <div class="social">
+
+            
+            <div class="go"><i class="fab fa-google"></i>Google</div>
+            <div class="fb"><i class="fab fa-Facebook"></i>Facebook</div>
+    
+
+
+  </form>
+
+</body>
+
+</html>
